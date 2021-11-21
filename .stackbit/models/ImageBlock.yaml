@@ -1,0 +1,34 @@
+type: object
+name: ImageBlock
+label: Image
+labelField: altText
+fieldGroups:
+  - name: settings
+    label: Settings
+fields:
+  - type: image
+    name: url
+    label: Image
+    description: The URL of the image
+  - type: string
+    name: altText
+    label: Alt text
+    description: The alt text of the image
+  - type: string
+    name: caption
+    label: Caption
+    description: The caption of the image
+  - type: string
+    name: elementId
+    group: settings
+    label: Element ID
+    description: The unique ID for an HTML element, must not contain whitespace
+    default: ''
+  - type: style
+    name: styles
+    styles:
+      self:
+        opacity: '*'
+    default:
+      self:
+        opacity: 100
