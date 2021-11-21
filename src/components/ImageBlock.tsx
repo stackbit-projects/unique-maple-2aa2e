@@ -1,6 +1,6 @@
 import * as React from 'react';
 import classNames from 'classnames';
-import {}
+import { mapStylesToClassNames } from '@stackbit/components/dist/utils/'
 
 export default function ImageBlock(props) {
     const { url, altText, caption } = props;
