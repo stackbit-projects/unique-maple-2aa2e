@@ -67,7 +67,6 @@ fields:
       altText: Hero section image
   - type: string
     name: contentStyles
-    hidden: true
   - type: style
     name: styles
     styles:
