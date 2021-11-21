@@ -43,7 +43,7 @@ export default function HeroSection(props) {
                 )}
             >
                 <div
-                    data-sb-field-path=".contentStyles" 
+                    data-sb-field-path=".contentStyles"
                     className={classNames('w-full', sectionStyles.width ? mapMaxWidthStyles(sectionStyles.width) : null)}>
                     <div
                         className={classNames(
@@ -58,7 +58,7 @@ export default function HeroSection(props) {
                             {heroActions(props)}
                         </div>
                         {props.feature && (
-                            <div className={classNames("my-3 flex-1 px-4 w-full", mapStyles(props.styles?.))}>
+                            <div className={classNames("my-3 flex-1 px-4 w-full", mapStyles(props.styles?.feature))}>
                                 <div data-sb-field-path=".feature">{heroFeature(props.feature)}</div>
                             </div>
                         )}
