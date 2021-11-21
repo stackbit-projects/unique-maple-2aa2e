@@ -101,7 +101,7 @@ function heroBackgroundImage(image) {
 function heroBody(props) {
     const styles = props.styles || {};
     return (
-        <div data-sb-field-path=".styles">
+        <div data-sb-field-path=".contentStyles">
             {props.title && (
                 <h2 className={classNames('text-4xl', 'sm:text-5xl', styles.title ? mapStyles(styles.title) : null)} data-sb-field-path=".title">
                     {props.title}
