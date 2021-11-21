@@ -58,7 +58,7 @@ export default function HeroSection(props) {
                             {heroActions(props)}
                         </div>
                         {props.feature && (
-                            <div className={"my-3 flex-1 px-4 w-full">
+                            <div className={"my-3 flex-1 px-4 w-full"}>
                                 <div data-sb-field-path=".feature">{heroFeature(props.feature)}</div>
                             </div>
                         )}
