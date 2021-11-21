@@ -59,7 +59,7 @@ export default function HeroSection(props) {
                         </div>
                         {props.feature && (
                             <div className={classNames("my-3 flex-1 px-4 w-full")}>
-                                <div data-sb-field-path=".feature">{heroFeature(props.feature)}</div>
+                                <div data-sb-field-path=".feature" className="flex">{heroFeature(props.feature)}</div>
                             </div>
                         )}
                     </div>
