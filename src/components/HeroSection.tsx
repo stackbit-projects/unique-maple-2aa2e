@@ -41,7 +41,7 @@ export default function HeroSection(props) {
                     'w-full',
                     sectionStyles.justifyContent ? mapStyles({ justifyContent: sectionStyles.justifyContent }) : null
                 )}
-            >Hello
+            >
                 <div className={classNames('w-full', sectionStyles.width ? mapMaxWidthStyles(sectionStyles.width) : null)}>
                     <div
                         className={classNames(
