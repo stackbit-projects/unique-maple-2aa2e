@@ -6,7 +6,7 @@ registerComponents({
     // Register all Stackbit components
     ...componentsMap
 
-    'HeroSection': dynamic(() => import('./HeroSection.tsx')),
+    'HeroSection': dynamic(() => import('./HeroSection.tsx'))
     // Override any static or dynamic component,
     // or register your own dynamic component.
 });
