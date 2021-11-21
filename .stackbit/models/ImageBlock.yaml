@@ -29,6 +29,7 @@ fields:
     styles:
       self:
         opacity: '*'
+        alignItems: ['flex-start', 'flex-end', 'center']
     default:
       self:
         opacity: 100
