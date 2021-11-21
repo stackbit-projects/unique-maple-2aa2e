@@ -42,7 +42,9 @@ export default function HeroSection(props) {
                     sectionStyles.justifyContent ? mapStyles({ justifyContent: sectionStyles.justifyContent }) : null
                 )}
             >
-                <div className={classNames('w-full', sectionStyles.width ? mapMaxWidthStyles(sectionStyles.width) : null)}>
+                <div
+                    data-sb-field-path=".contentStyles"
+                    className={classNames('w-full', sectionStyles.width ? mapMaxWidthStyles(sectionStyles.width) : null)}>
                     <div
                         className={classNames(
                             'flex',
