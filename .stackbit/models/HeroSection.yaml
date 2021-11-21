@@ -98,6 +98,8 @@ fields:
           - value: 'border-complementary-alt'
             label: 'Complementary alt color'
             color: '$complementaryAlt'
+      contentStyles:
+        
       title:
         fontWeight: ['400', '700']
         fontStyle: ['normal', 'italic']
