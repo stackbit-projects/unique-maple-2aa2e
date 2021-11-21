@@ -7,7 +7,7 @@ registerComponents({
     ...componentsMap,
 
     'HeroSection': dynamic(() => import('./HeroSection.tsx')),
-    'ImageBlock': dynamic(() => import('./components/ImageBlock')),
+    'ImageBlock': dynamic(() => import('./ImageBlock')),
     // Override any static or dynamic component,
     // or register your own dynamic component.
 });
