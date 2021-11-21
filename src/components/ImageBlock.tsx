@@ -11,7 +11,7 @@ export default function ImageBlock(props) {
     const cssId = props.elementId || null;
     const styles = props.styles?.self || {};
     const imageOpacity = styles.opacity || styles.opacity === 0 ? styles.opacity : 100;
-    const justifyContent = mapStylesToClassNames({ justifyContent: styles.justifyContent });
+    const justifyContent = styles.justifyContent ? mapStylesToClassNames({ justifyContent: styles.justifyContent }) : null;
 
     return (
         <img
