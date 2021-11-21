@@ -65,7 +65,9 @@ fields:
       type: ImageBlock
       url: /images/hero.png
       altText: Hero section image
-  - type:
+  - type: string
+    name: contentStyles
+    hidden: true
   - type: style
     name: styles
     styles:
