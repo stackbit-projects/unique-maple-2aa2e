@@ -57,7 +57,7 @@ sections:
       actions:
         justifyContent: flex-start
       contentStyles:
-        width: wide
+        width: narrow
     feature:
       altText: My Image
       caption: My Image
