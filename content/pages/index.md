@@ -61,6 +61,7 @@ sections:
         self:
           opacity: 100
       type: ImageBlock
+      url: /images/cta-about.svg
   - elementId: ''
     colors: colors-a
     backgroundImage:
