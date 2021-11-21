@@ -29,8 +29,6 @@ fields:
     styles:
       self:
         opacity: '*'
-        justifyContent: '*'
-        alignContent: '*'
     default:
       self:
         opacity: 100
