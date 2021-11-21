@@ -58,7 +58,7 @@ sections:
         justifyContent: flex-start
     feature:
       altText: My Image
-      caption: lorem-ipsum
+      caption: My Image
       elementId: ''
       styles:
         self:
