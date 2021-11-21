@@ -99,7 +99,7 @@ fields:
             label: 'Complementary alt color'
             color: '$complementaryAlt'
       contentStyles:
-        
+        width: ['narrow', 'wide', 'full']
       title:
         fontWeight: ['400', '700']
         fontStyle: ['normal', 'italic']
