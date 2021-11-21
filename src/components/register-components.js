@@ -4,7 +4,7 @@ import { componentsMap } from '@stackbit/components/dist/components-map';
 
 registerComponents({
     // Register all Stackbit components
-    ...componentsMap
+    ...componentsMap,
 
     'HeroSection': dynamic(() => import('./HeroSection.tsx'))
     // Override any static or dynamic component,
