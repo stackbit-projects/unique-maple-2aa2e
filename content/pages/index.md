@@ -58,15 +58,6 @@ sections:
         justifyContent: flex-start
       contentStyles:
         width: wide
-    feature:
-      altText: My Image
-      caption: My Image
-      elementId: ''
-      styles:
-        self:
-          opacity: 100
-      type: ImageBlock
-      url: /images/cta-about.svg
   - elementId: ''
     colors: colors-a
     backgroundImage:
