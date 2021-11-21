@@ -53,6 +53,14 @@ sections:
         justifyContent: flex-start
       contentStyles:
         width: wide
+    feature:
+      altText: lorem-ipsum
+      caption: lorem-ipsum
+      elementId: ''
+      styles:
+        self:
+          opacity: 100
+      type: ImageBlock
   - elementId: ''
     colors: colors-a
     backgroundImage:
