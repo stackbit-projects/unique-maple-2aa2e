@@ -56,6 +56,8 @@ sections:
           - mb-8
       actions:
         justifyContent: flex-start
+      contentStyles:
+        width: wide
     feature:
       altText: My Image
       caption: My Image
