@@ -116,6 +116,7 @@ fields:
         margin: ['twy0:12']
       actions:
         justifyContent: ['flex-start', 'flex-end', 'center']
+      feature:
     default:
       self:
         height: auto
