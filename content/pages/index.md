@@ -60,7 +60,7 @@ sections:
       styles:
         self:
           opacity: 100
-          alignItems: center
+          alignItems: flex-start
       type: ImageBlock
       url: /images/cta-about.svg
   - elementId: ''
