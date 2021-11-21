@@ -61,7 +61,7 @@ sections:
         self:
           opacity: 100
           alignItems: flex-start
-          justifyContent: center
+          justifyContent: flex-end
       type: ImageBlock
       url: /images/cta-about.svg
   - elementId: ''
