@@ -51,17 +51,6 @@ sections:
       contentStyles:
         width: wide
         alignItems: center
-    feature:
-      altText: lorem-ipsum
-      caption: lorem-ipsum
-      elementId: ''
-      styles:
-        self:
-          opacity: 100
-          alignItems: flex-start
-          justifyContent: center
-      type: ImageBlock
-      url: /images/cta-about.svg
     title: >-
       This is an Award Winning Agency Based in San Francisco and Focusing on
       Digital, Identity, and Print Design.
