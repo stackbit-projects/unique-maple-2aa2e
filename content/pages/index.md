@@ -62,6 +62,9 @@ sections:
           justifyContent: center
       type: ImageBlock
       url: /images/cta-about.svg
+    title: >-
+      This is an Award Winning Agency Based in San Francisco and Focusing on
+      Digital, Identity, and Print Design.
   - elementId: ''
     colors: colors-a
     backgroundImage:
