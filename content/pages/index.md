@@ -53,6 +53,7 @@ sections:
         justifyContent: flex-start
       contentStyles:
         width: wide
+        alignItems: center
     feature:
       altText: lorem-ipsum
       caption: lorem-ipsum
