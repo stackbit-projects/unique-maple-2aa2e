@@ -5,9 +5,6 @@ sections:
   - type: HeroSection
     elementId: homepage-hero-1
     colors: colors-c
-    title: >-
-      This is an Award Winning Agency Based in San Francisco and Focusing on
-      Digital, Identity, and Print Design.
     actions: []
     styles:
       self:
