@@ -43,7 +43,7 @@ export default function HeroSection(props) {
                 )}
             >
                 <div
-                    data-sb-field-path=".style.contentStyle"
+                    data-sb-field-path=".contentStyles"
                     className={classNames('w-full', 'bg-red-400', sectionStyles.width ? mapMaxWidthStyles(sectionStyles.width) : null)}>
                     <div
                         className={classNames(
